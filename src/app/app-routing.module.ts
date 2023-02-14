@@ -33,6 +33,7 @@ import { PagesLoginComponent } from './pages/pages-login/pages-login.component';
 import { PagesRegisterComponent } from './pages/pages-register/pages-register.component';
 import { UsersProfileComponent } from './pages/users-profile/users-profile.component';
 import { AllProductsComponent } from './pages/all-products/all-products.component';
+import { MarketHomeComponent } from './pages/market-home/market-home.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent },
@@ -69,6 +70,7 @@ const routes: Routes = [
   { path: 'pages-register', component: PagesRegisterComponent },
   { path: 'user-profile', component: UsersProfileComponent },
   { path: 'all-products', component: AllProductsComponent },
+  { path: 'market-home', component: MarketHomeComponent },
 ];
 
 @NgModule({

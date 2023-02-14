@@ -39,6 +39,7 @@ import { PagesLoginComponent } from './pages/pages-login/pages-login.component';
 import { PagesError404Component } from './pages/pages-error404/pages-error404.component';
 import { PagesBlankComponent } from './pages/pages-blank/pages-blank.component';
 import { AllProductsComponent } from './pages/all-products/all-products.component';
+import { MarketHomeComponent } from './pages/market-home/market-home.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +79,8 @@ import { AllProductsComponent } from './pages/all-products/all-products.componen
     PagesLoginComponent,
     PagesError404Component,
     PagesBlankComponent,
-    AllProductsComponent
+    AllProductsComponent,
+    MarketHomeComponent
   ],
   imports: [
     BrowserModule,
