@@ -40,6 +40,7 @@ import { PagesError404Component } from './pages/pages-error404/pages-error404.co
 import { PagesBlankComponent } from './pages/pages-blank/pages-blank.component';
 import { AllProductsComponent } from './pages/all-products/all-products.component';
 import { MarketHomeComponent } from './pages/market-home/market-home.component';
+import { SubmitProductComponent } from './pages/submit-product/submit-product.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { MarketHomeComponent } from './pages/market-home/market-home.component';
     PagesError404Component,
     PagesBlankComponent,
     AllProductsComponent,
-    MarketHomeComponent
+    MarketHomeComponent,
+    SubmitProductComponent
   ],
   imports: [
     BrowserModule,
